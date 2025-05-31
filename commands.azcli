@@ -1,0 +1,4 @@
+# Deploy an ARM template
+az deployment group create \
+--resource-group learn-cf58e577-92ae-4088-8800-c2d7c0b1b66b \
+--template-file main.json
